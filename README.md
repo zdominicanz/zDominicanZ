@@ -1,16 +1,17 @@
-## Hi there 👋
+# 👋 Portafolio de zDominicanZ
+### 🛡️ Staff Profesional & Configurador de Servidores Minecraft
 
-<!--
-**zdominicanz/zDominicanZ** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+📍 Ciudad Autónoma de Buenos Aires, Argentina
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 📋 Descripción
+Repositorio con mi portafolio profesional como miembro de equipos de staff y administrador de servidores de Minecraft. Aquí muestro mi experiencia, conocimientos y formas de contacto.
+
+🔗 **Ver mi portafolio completo y con diseño:** [zDominicanZ.github.io/Portafolio](https://tunombre.github.io/Portafolio)
+
+---
+
+## 📫 Contacto
+- 💬 Discord: `zDominicanZ`
+- 📧 Correo: `DomiK1ngF@gmail.com`
