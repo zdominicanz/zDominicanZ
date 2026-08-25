@@ -1,108 +1,141 @@
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Roboto, Arial, sans-serif;
 }
 
 body {
-  background-color: #121212;
-  color: #e0e0e0;
-  line-height: 1.6;
-  padding: 20px;
-  max-width: 800px;
-  margin: 0 auto;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #ffffff; /* Fondo blanco principal */
+  color: #2c3e50;
+  line-height: 1.7;
 }
 
 .container {
-  border: 2px solid #d4af37;
-  border-radius: 12px;
-  padding: 30px;
-  background-color: #1a1a1a;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 25px;
 }
 
+/* Encabezado */
 .header {
   text-align: center;
+  padding-bottom: 25px;
+  border-bottom: 3px solid #74b9ff; /* Celeste bandera */
   margin-bottom: 30px;
-  border-bottom: 2px solid #d4af37;
-  padding-bottom: 20px;
 }
 
-h1 {
-  color: #d4af37;
-  font-size: 42px;
-  font-weight: bold;
-  margin-bottom: 8px;
-}
-
-.subtitulo {
-  color: #d4af37;
-  font-size: 20px;
-  margin-bottom: 10px;
-  opacity: 0.9;
-}
-
-.ubicacion {
-  color: #b0b0b0;
-  font-size: 18px;
-}
-
-.seccion {
-  margin: 35px 0;
-}
-
-h2 {
-  color: #d4af37;
-  font-size: 28px;
-  border-left: 5px solid #d4af37;
-  padding-left: 12px;
-  margin-bottom: 20px;
-}
-
-.experiencia-item {
-  background-color: #222;
-  border-radius: 8px;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-h3 {
-  color: #d4af37;
-  font-size: 24px;
+.header h1 {
+  color: #0984e3; /* Celeste oscuro elegante */
+  font-size: 2.4rem;
   margin-bottom: 5px;
 }
 
-.estado {
-  color: #b8860b;
-  font-style: italic;
-  margin-bottom: 12px;
+.subtitulo {
+  color: #74b9ff; /* Celeste medio */
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
-p {
-  font-size: 17px;
-  margin-bottom: 10px;
+.ubicacion {
+  color: #555;
+  font-size: 1rem;
+  margin-top: 5px;
 }
 
-ul {
-  margin-left: 25px;
+/* Secciones generales */
+.seccion {
+  margin-bottom: 35px;
+}
+
+.seccion h2 {
+  color: #0984e3; /* Todos los títulos celestes */
+  border-bottom: 2px solid #d6eaf8;
+  padding-bottom: 6px;
+  margin-bottom: 18px;
+  font-size: 1.4rem;
+}
+
+/* Sección de disponibilidad */
+.disponible {
+  background-color: #f0f8ff; /* Fondo celeste muy suave */
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #0984e3;
+}
+
+/* Experiencia */
+.experiencia-item {
+  background-color: #f8fbff;
+  padding: 20px;
+  border-radius: 8px;
+  border-left: 4px solid #74b9ff;
   margin-bottom: 15px;
 }
 
-li {
-  margin: 6px 0;
+.experiencia-item h3 {
+  color: #2d3436;
+  margin-bottom: 4px;
 }
 
+.estado {
+  font-weight: bold;
+  color: #0984e3;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+/* Lista conocimientos */
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #eaf4ff;
+  position: relative;
+  padding-left: 25px;
+}
+
+ul li::before {
+  content: "▹";
+  position: absolute;
+  left: 5px;
+  color: #74b9ff;
+  font-weight: bold;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* Contacto */
 .contacto {
-  border-top: 2px solid #d4af37;
-  padding-top: 20px;
-  text-align: center;
+  background-color: #f0f8ff;
+  padding: 22px;
+  border-radius: 10px;
+  border: 1px solid #d6eaf8;
 }
 
 a {
-  color: #d4af37;
+  color: #0984e3;
   text-decoration: none;
+  font-weight: 600;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+/* Responsive para celulares */
+@media (max-width: 600px) {
+  .container {
+    margin: 20px auto;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
 }
