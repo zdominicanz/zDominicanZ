@@ -26,10 +26,10 @@ Actualmente estoy **disponible para sumarme como configurador, coordinador de st
 ---
 
 ### 💼 Mi experiencia
-**🔹 MinePet — Ex Administrador**  
+**🔹 MinePet — Ex Chat-Admini**  
 *Mayo 2026 → Julio 2026 (3 meses)*
 
-Entré como Helper, fui ascendido a Moderador y terminé como Administrador. Ahí coordiné al equipo, resolví conflictos entre usuarios y mantuve el orden tanto en juego como en Discord. También me encargué de configurar varias partes y agregar funciones que hacían falta. Me retiré por motivos personales y para enfocarme en nuevos proyectos.
+Entré como Helper, fui ascendido a Moderador y terminé como Chat-Admin. Ahí coordiné al equipo, resolví conflictos entre usuarios y mantuve el orden tanto en juego como en Discord. También me encargué de ayudar en varias partes,y ayudar a los staffs y dar opiniones sobre las sanciones. Me retiré por motivos personales y para enfocarme en nuevos proyectos.
 
 **🔹 NauticMC Bedrock — Ex Moderador**  
 *Marzo 2024 → Septiembre 2024 (6 meses)*
